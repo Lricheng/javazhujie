@@ -18,8 +18,10 @@ public class TestRunner {
                 System.out.println("注解name的属性" + myTest.name());
                 //4 调用方法
                 m.invoke(Demo1.class.newInstance());
+
             }
         }
+        System.out.println("这串代码是测试了上传git得代码");
 
     }
 }
